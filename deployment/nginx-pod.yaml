@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: rockylinux:9.3
+        image: traefik/whoami
         tty: true
         ports:
         - containerPort: 80
